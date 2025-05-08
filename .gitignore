@@ -14,8 +14,7 @@ env/
 .DS_Store
 Thumbs.db
 
-# Output folders
-outputs/
+
 *.log
 
 # Data (optional, keep if you're versioning raw data)
