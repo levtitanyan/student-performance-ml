@@ -63,7 +63,8 @@ def encode_features(df: pd.DataFrame) -> pd.DataFrame:
         'F': 0, 'M': 1,
         'T': 1, 'A': 0,
         'U': 1, 'R': 0,
-        'GT3': 1, 'LE3': 0
+        'GT3': 1, 'LE3': 0,
+        'GP': 1, 'MS': 0  
     }
 
     # Identify categorical columns
