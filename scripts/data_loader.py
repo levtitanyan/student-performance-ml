@@ -22,7 +22,8 @@ def load_raw(filename: str, sep: str = ",") -> pd.DataFrame:
 
 if __name__ == "__main__":
     # Example usage for semicolon-separated file
-    df = load_raw("student-mat.csv", sep=";")
+    df = load_raw("data-corrupted.csv", sep=";")
     print(f"Shape: {df.shape}")
     print(df.head())
+    
     
