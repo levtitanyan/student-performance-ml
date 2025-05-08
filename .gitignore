@@ -1,0 +1,29 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output folders
+outputs/
+*.log
+
+# Data (optional, keep if you're versioning raw data)
+# data/*.csv
+
+# Environment configs
+*.env
+
+# IDE/project config files
+.vscode/
+.idea/
