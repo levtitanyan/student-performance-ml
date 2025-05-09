@@ -1,0 +1,13 @@
+Model,Accuracy,Precision,Recall,F1,AUC
+Decision Tree (Best) Test,0.915,0.926,0.862,0.893,0.909
+Gradient Boosting (Best) Test,0.901,0.867,0.897,0.881,0.961
+Random Forest (Best) Test,0.901,0.893,0.862,0.877,0.948
+Logistic Regression (Best) Test,0.859,0.828,0.828,0.828,0.94
+Naive Bayes Test,0.831,0.758,0.862,0.806,0.888
+KNN (Best) Test,0.606,0.516,0.552,0.533,0.597
+KNN (Best) Train,1.0,1.0,1.0,1.0,1.0
+Random Forest (Best) Train,1.0,1.0,1.0,1.0,1.0
+Gradient Boosting (Best) Train,1.0,1.0,1.0,1.0,1.0
+Decision Tree (Best) Train,0.972,0.948,0.982,0.965,0.998
+Logistic Regression (Best) Train,0.94,0.944,0.902,0.922,0.989
+Naive Bayes Train,0.876,0.813,0.893,0.851,0.943
