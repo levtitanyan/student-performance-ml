@@ -7,19 +7,18 @@ It demonstrates key ML skills in regression, classification, feature engineering
 
 ## Dataset Information
 
-- **Source:** UCI Machine Learning Repository  
+- Source: UCI Machine Learning Repository  
   [Student Performance Data Set](https://archive.ics.uci.edu/ml/datasets/Student+Performance)
-- **Description:**  
+- Description:  
   The dataset contains student records including demographic, social, and academic attributes.  
   Target variables:
-  - `final_grade` (0–20): used for regression
-  - `passed` (binary): 1 if `final_grade >= 12`, else 0 — used for classification
+  - final_grade (0–20): used for regression
+  - passed (binary): 1 if final_grade >= 12, else 0 — used for classification
 
 ---
 
 ## Project Structure
 
-```
 student-performance-ml/
 ├── data/                  # Raw and cleaned datasets
 │   ├── data-raw.csv
@@ -44,38 +43,35 @@ student-performance-ml/
 |
 ├── requirements.txt       # Project dependencies
 └── README.md              # This file
-```
 
 ---
 
 ##  How to Run
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/student-performance-ml.git
+1. Clone the repository
+   
+   git clone https://github.com/levtitanyan/student-performance-ml.git
    cd student-performance-ml
-   ```
-
-2. **Install dependencies**
-   ```bash
+   
+2. Install dependencies
+   
    pip install -r requirements.txt
-   ```
-
-3. **Launch notebooks**
+   
+3. Launch notebooks
    Open the notebooks in order:
-   - `01_eda.ipynb`
-   - `02_preprocessing.ipynb`
-   - `03_modeling_regression.ipynb`
-   - `04_modeling_classification.ipynb`
+   - 01_eda.ipynb
+   - 02_preprocessing.ipynb
+   - 03_modeling_regression.ipynb
+   - 04_modeling_classification.ipynb
 
 ---
 
 ## Modeling Overview
 
 ### Regression Targets:
-- `final_grade`
+- final_grade
 
-**Models Used**:
+Models Used:
 - Linear Regression
 - Ridge
 - Lasso
@@ -83,9 +79,9 @@ student-performance-ml/
 - Random Forest
 
 ### Classification Targets:
-- `passed` (binary from final_grade ≥ 12)
+- passed (binary from final_grade ≥ 12)
 
-**Models Used**:
+Models Used:
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
 - Decision Tree
@@ -97,25 +93,23 @@ student-performance-ml/
 
 ## Output Artifacts
 
-- 📊 All plots saved to `outputs/plots/`
-- 📑 Evaluation reports saved to `outputs/reports/`
-- 💡 Trained models saved to `models/` (e.g., `ridge_model.pkl`, `logreg_model.pkl`)
+- 📊 All plots saved to outputs/plots/
+- 📑 Evaluation reports saved to outputs/reports/
+- 💡 Trained models saved to models/ (e.g., ridge_model.pkl, `logreg_model.pkl`)
 
 ---
-
 
 ##  Results
 
-###  Best Regression Model: **Lasso Regression**
-- **Test R²:** 0.808  
+###  Best Regression Model: Lasso Regression
+- Test R²: 0.808  
 
-###  Best Classification Model: **Decision Tree Classifier**
-- **Test Accuracy:** 91.5%, **F1 Score:** 0.893
+###  Best Classification Model: Decision Tree Classifier
+- Test Accuracy: 91.5%, F1 Score: 0.893
+
 ---
-
-
 
 ## Authors
 
-**Arstvik Avetisyan**
-**Levon Titanyan**  [GitHub Profile](https://github.com/levtitanyan)
+- Arstvik Avetisyan [GitHub Profile](https://github.com/Artsvik9)
+- Levon Titanyan [GitHub Profile](https://github.com/levtitanyan)
