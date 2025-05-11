@@ -19,44 +19,50 @@ It demonstrates key ML skills in regression, classification, feature engineering
 
 ## Project Structure
 
-student-performance-ml/
-├── data/                  # Raw and cleaned datasets
-│   ├── data-raw.csv
-│   ├── data-corrupted.csv # With null values added
-│   ├── data-cleaned.csv
-|
-├── notebooks/             # Step-by-step Jupyter notebooks
-│   ├── 01_eda.ipynb
-│   ├── 02_preprocessing.ipynb
-│   ├── 03_modeling.ipynb
-|
-├── scripts/               # Modular Python scripts
-│   ├── data_loader.py
-│   ├── eda_plots.py
-│   ├── models.py
-│   ├── preprocessing.py
-│   └── saver.py
-|
-├── outputs/               # Generated outputs
-│   ├── plots/             # All saved figures
-│   └── reports/           # Evaluation result CSVs
-|
-├── requirements.txt       # Project dependencies
-└── README.md              # This file
+```
+   student-performance-ml/
+   ├── data/                  # Raw and cleaned datasets
+   │   ├── data-raw.csv
+   │   ├── data-corrupted.csv # With null values added
+   │   ├── data-cleaned.csv
+   |
+   ├── notebooks/             # Step-by-step Jupyter notebooks
+   │   ├── 01_eda.ipynb
+   │   ├── 02_preprocessing.ipynb
+   │   ├── 03_modeling.ipynb
+   |
+   ├── scripts/               # Modular Python scripts
+   │   ├── data_loader.py
+   │   ├── eda_plots.py
+   │   ├── models.py
+   │   ├── preprocessing.py
+   │   └── saver.py
+   |
+   ├── outputs/               # Generated outputs
+   │   ├── plots/             # All saved figures
+   │   └── reports/           # Evaluation result CSVs
+   |
+   ├── requirements.txt       # Project dependencies
+   └── README.md              # This file
+```
 
 ---
 
 ##  How to Run
 
 1. Clone the repository
-   
+
+```  
    git clone https://github.com/levtitanyan/student-performance-ml.git
    cd student-performance-ml
+```
    
 2. Install dependencies
-   
+
+```
    pip install -r requirements.txt
-   
+```
+
 3. Launch notebooks
    Open the notebooks in order:
    - 01_eda.ipynb
