@@ -68,7 +68,6 @@ It demonstrates key ML skills in regression, classification, feature engineering
    - 01_eda.ipynb
    - 02_preprocessing.ipynb
    - 03_modeling_regression.ipynb
-   - 04_modeling_classification.ipynb
 
 ---
 
