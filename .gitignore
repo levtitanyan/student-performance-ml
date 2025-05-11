@@ -26,3 +26,5 @@ Thumbs.db
 # IDE/project config files
 .vscode/
 .idea/
+
+.png
